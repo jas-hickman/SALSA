@@ -61,4 +61,4 @@ dat$Treatment[dat$Treatment == 602] <- 120
 dat$Treatment[dat$Treatment == 603] <- 60
 dat$Treatment[dat$Treatment == 604] <- 30
 
-
+write.csv(dat, file = "~/PhD/SALSA/") #add in file name (date)
